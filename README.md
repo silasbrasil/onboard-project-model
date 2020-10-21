@@ -57,7 +57,7 @@ $ npm install
 $ npm run start:dev
 ```
 
-Agora acesso o endereço <a>http://localhost:3000</a> no browser e o resultado deverá ser semelhante ao seguinte:
+Agora acesse o endereço <a href="http://localhost:3000">localhost:3000</a> no browser e o resultado deverá ser semelhante ao seguinte:
 
 ```json
 {
@@ -75,8 +75,45 @@ Agora acesso o endereço <a>http://localhost:3000</a> no browser e o resultado d
 
 ## Hands-on
 
-Agora você irá fazer sua primeira alteração no código do projeto onboard.
+Agora você irá fazer sua primeira alteração no código do projeto onboard. A primeiroa coisa a se fazer é criar uma branch com o seu nome para a nova feature utilizando o **git flow** como segue:
 
+```bash
+# criando uma branch para a nova feature
+$ git flow feature start NOME-SOBRENOME
+```
+
+Agora que você está na nova branch com o seu nome iremos começar a fazer as primeiras alterações no código utilizando o **nestjs**.
+
+```bash
+# criando uma branch para a nova feature
+$ nest g controller NOME-SOBRENOME
+```
+
+Ao término da execução do comando acima um diretório com o seu nome contendo 2 arquivos foi criado no diretório ```src```. O arquivo com final ```.spec.ts``` é para criar os testes e o outro é o controller no qual iremos trabalhar. O controller deverá ter a uma apararência semelhe a essa:
+
+```ts
+import { Controller } from '@nestjs/common';
+
+@Controller('nome-sobrenome')
+export class NomeSobrenomeController {}
+```
+
+Vamos criar uma rota para acessar os seus dados como desenvolvedor. Para isso, faça as seguintes alterações no códido da controller criada.
+
+```ts
+import { Controller, Get } from '@nestjs/common';
+
+@Controller('nome-sobrenome')
+export class NomeSobrenomeController {
+
+  @Get()
+  developer(): string {
+    return 'Nome Sobrenome';
+  }
+}
+```
+
+Acesse a rota **http://localhost:3000/nome-sobrenome** e confirme se retorna seu nome e sobrenome.
 
 ## Rodando os Testes Automáticos
 
