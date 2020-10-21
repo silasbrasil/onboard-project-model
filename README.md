@@ -57,7 +57,7 @@ $ npm install
 $ npm run start:dev
 ```
 
-Agora acesse o endereço <a href="http://localhost:3000">localhost:3000</a> no browser e o resultado deverá ser semelhante ao seguinte:
+Agora acesse o endereço <a href="http://localhost:3000">localhost:3000</a> no browser. O resultado deverá ser semelhante ao que segue:
 
 ```json
 {
