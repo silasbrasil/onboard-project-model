@@ -22,17 +22,33 @@
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
-## Description
+## Descrição
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+Esse projeto é para auxiliar no onboard de desenvolvedores backend com [NestJS](https://docs.nestjs.com/). O objetivo é deixar claro como funciona o processo de desenvolvimento e publicação de um feature.
 
-## Installation
+## Pré requisitos
+
+[Node.js LTS](https://nodejs.org)
+[NestJS CLI](https://docs.nestjs.com/first-steps#setup)
+
+## Primeiros passos
+Baixe o projeto no seu computador usando o **GIT**. Nesse caso vamos baixar o próprio projeto de onboard.
 
 ```bash
+$ git clone https://github.com/silasbrasil/onboard-project-model.git
+```
+
+Agora acesse o repositório do projeto e instale os pacotes.
+
+```bash
+# acessando o repositório
+$ cd onboard-project-model
+
+# instalando os pacotes
 $ npm install
 ```
 
-## Running the app
+## Testando em ambiente de Dev e Prod
 
 ```bash
 # development
@@ -58,13 +74,8 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
 ## Stay in touch
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
 - Website - [https://nestjs.com](https://nestjs.com/)
 - Twitter - [@nestframework](https://twitter.com/nestframework)
 
