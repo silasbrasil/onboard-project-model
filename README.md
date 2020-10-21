@@ -69,8 +69,14 @@ Agora acesso o endereço <a>http://localhost:3000</a> no browser e o resultado d
 ## Regras para uso das branches no projeto
 
 - Nunca poderá ser desenvolvido algo na branch **master**
+- Nunca poderá ser desenvolvido algo na branch **dev**
 - O fluxos de branches são baseados no [Git Flow](https://www.atlassian.com/br/git/tutorials/comparing-workflows/gitflow-workflow)
-- Para publicar uma novidade em produção deverá ser feito usando uma Pull Request e passar na aprovação de alguém responsável por isso
+- Para publicar uma novidade em produção deverá ser feito usando uma Pull Request e deverá passar na aprovação de alguém responsável
+
+## Hands-on
+
+Agora você irá fazer sua primeira alteração no código do projeto onboard.
+
 
 ## Rodando os Testes Automáticos
 
