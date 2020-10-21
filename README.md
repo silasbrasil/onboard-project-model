@@ -50,16 +50,29 @@ $ cd onboard-project-model
 $ npm install
 ```
 
-## Testando em ambiente de Dev
+## Rodando em ambiente de Dev
 
 ```bash
 # watch mode
 $ npm run start:dev
 ```
 
-Agora acesso <a>localhost:3000</a> no browser para ver o resultado.
+Agora acesso o endereço <a>http://localhost:3000</a> no browser e o resultado deverá ser semelhante ao seguinte:
 
-## Test
+```json
+{
+  "message": "Bem-vindo ao onboard dos Dev para Backend",
+  "status": "starting"
+}
+```
+
+## Regras para uso das branches no projeto
+
+- Nunca poderá ser desenvolvido algo na branch **master**
+- O fluxos de branches são baseados no [Git Flow](https://www.atlassian.com/br/git/tutorials/comparing-workflows/gitflow-workflow)
+- Para publicar uma novidade em produção deverá ser feito usando uma Pull Request e passar na aprovação de alguém responsável por isso
+
+## Rodando os Testes Automáticos
 
 ```bash
 # unit tests
