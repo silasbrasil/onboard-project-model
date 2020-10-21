@@ -29,7 +29,10 @@ Esse projeto é para auxiliar no onboard de desenvolvedores backend com [NestJS]
 ## Pré requisitos
 
 [Node.js LTS](https://nodejs.org)
+</br>
 [NestJS CLI](https://docs.nestjs.com/first-steps#setup)
+</br>
+[Git](https://git-scm.com/downloads)
 
 ## Primeiros passos
 Baixe o projeto no seu computador usando o **GIT**. Nesse caso vamos baixar o próprio projeto de onboard.
