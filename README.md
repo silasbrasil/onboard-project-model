@@ -27,12 +27,11 @@
 Esse projeto é para auxiliar no onboard de desenvolvedores backend com [NestJS](https://docs.nestjs.com/). O objetivo é deixar claro como funciona o processo de desenvolvimento e publicação de um feature.
 
 ## Pré requisitos
+[Git](https://git-scm.com/downloads)
 
 [Node.js LTS](https://nodejs.org)
-</br>
+
 [NestJS CLI](https://docs.nestjs.com/first-steps#setup)
-</br>
-[Git](https://git-scm.com/downloads)
 
 ## Primeiros passos
 Baixe o projeto no seu computador usando o **GIT**. Nesse caso vamos baixar o próprio projeto de onboard.
@@ -51,18 +50,14 @@ $ cd onboard-project-model
 $ npm install
 ```
 
-## Testando em ambiente de Dev e Prod
+## Testando em ambiente de Dev
 
 ```bash
-# development
-$ npm run start
-
 # watch mode
 $ npm run start:dev
-
-# production mode
-$ npm run start:prod
 ```
+
+Agora acesso <a>localhost:3000</a> no browser para ver o resultado.
 
 ## Test
 
