@@ -16,7 +16,10 @@ describe('AppController', () => {
 
   describe('root', () => {
     it('should return "Hello World!"', () => {
-      expect(appController.getHello()).toBe('Hello World!');
+      expect(appController.getHello()).toEqual({
+        message: 'Bem-vindo ao onboard dos Dev para Backend',
+        status: 'starting'
+      });
     });
   });
 });

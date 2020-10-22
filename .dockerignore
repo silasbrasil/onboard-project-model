@@ -1,0 +1,7 @@
+node_modules
+Dockerfile
+.git
+npm-debug.log
+docker-volumes
+e2e
+test
